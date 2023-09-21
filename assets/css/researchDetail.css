@@ -1,0 +1,29 @@
+.similar-img {
+    height: 175px;
+    padding: 10px;
+}
+
+.similar-img a {
+    color: black;
+}
+
+.similar-img a:hover {
+    color: cadetblue;
+}
+@media only screen and(max-width:400px) {
+    .container {
+        padding: 30px;
+    }
+    .h6 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1000px) {
+    .cotainer {
+        padding: 20px;
+    }
+    .h6 {
+        font-size: 20px;
+    }
+}

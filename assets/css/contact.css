@@ -1,0 +1,27 @@
+.thong-tin a, .thong-tin i, span,#ticker i{
+    color: #996D2A;
+}
+@media (max-width: 600px) {
+    .khoi-map iframe {
+        width: 95%;
+        height: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+    .container {
+        display: contents;
+    }
+    .thong-tin {
+        margin: 0 auto;
+        width: 99%;
+        margin-top: 20px;
+    }
+    .message-ct {
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+    form div {
+        width: 96%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,85 @@
+.bl-img {
+    width: 200px;
+    height: 300px;
+}
+
+.bl-common {
+    display: flex;
+}
+
+.card-img {
+    width: 200px;
+    height: 300px;
+    flex: 0 auto;
+    margin-right: 10px;
+}
+
+.card-body {
+    flex: 1;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style: none;
+}
+
+#pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #B4C472;
+    text-decoration: none;
+    border-radius: 5px solid white;
+}
+
+#pagination a:hover{
+    background-color: white;
+    color: #E79796 !important;
+}
+#pagination .active{
+    background-color: #B4C472 !important;
+    color: white !important;
+}
+
+
+/*: Thiết bị cực nhỏ như điện thoại di động ở chế độ dọc. Từ 576px đến <768px:
+ Thiết bị màn hình nhỏ như điện thoại di động ở chế độ ngang Từ 768px đến <992px: 
+ thiết bị màn hình trung bình như máy tính bảng Từ 992px đến <1200px: 
+ Thiết bị lớn như máy tính để bàn Từ 1200px trở lên: Các thiết bị có màn hình máy tính cực lớn. 
+*/
+
+@media only screen and (max-width:400px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .bg-img {
+        width: 300px;
+        height: 200px;
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px)and(max-width:900px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .bg-img {
+        width: 300px;
+        height: 400px;
+        position: relative;
+    }
+}

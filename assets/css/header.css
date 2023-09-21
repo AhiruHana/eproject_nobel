@@ -1,0 +1,175 @@
+.navbar-nav .nav-link {
+    color: #c5fcff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .active {
+    color: #ffde59 !important;
+    border-bottom: 3px solid #ffde59;
+}
+
+
+nav {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 15px;
+}
+
+#menu {
+    width: 100%;
+    background-color: black;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 100%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.search-box {
+    border: 2px solid #B4C472;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    margin: 10px;
+}
+
+.search-box input {
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.search-box input:focus {
+    border: none;
+}
+
+.search-box button {
+    border: none;
+    color: #B4C472;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search-box button:hover {
+    background-color: #B4C472;
+}
+
+header {
+    background-color: black;
+}
+
+.logo img {
+    height: 150px;
+    margin-top: 20px;
+}
+
+.bg-image {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.main {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.bg-image h1 {
+    font-size: 3rem;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+#ticker {
+    position: fixed;
+    width: 200px;
+    bottom: 0;
+    color: #996D2A;
+    right: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.bold{
+    font-weight: 500 !important;
+}
+
+@media (max-width:400px) {
+    .menu-ip {
+        display: block;
+        font-size: 25px;
+        padding: 10px;
+        margin-bottom: -5px;
+        margin-left: -60px;
+    }
+    .bg-image h1 {
+        font-size: 25px;
+    }
+    .bg-image h5 {
+        font-weight: 450;
+        font-size: 19px;
+    }
+    .bg-image {
+        height: 315px;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    .logo img {
+        height: 110px;
+        margin-top: 15px;
+    }
+    .nav-link {
+        padding: 5px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-toggler-icon {
+        display: block;
+    }
+    .navbar-toggler.active+.navbar-toggler-icon {
+        display: block;
+    }
+    .navbar-toggler {
+        color: white;
+    }
+}
+
+@media (min-width: 601px) and (max-width:900px) {
+    .menu-ip {
+        display: block;
+        font-size: 25px;
+        padding: 10px;
+        margin-bottom: -5px;
+        margin-left: -60px;
+    }
+    .bg-image h1 {
+        font-size: 38px;
+    }
+    .nav-link {
+        padding: 10px;
+    }
+}

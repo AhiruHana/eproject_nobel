@@ -1,0 +1,29 @@
+@media (max-width: 400px) {
+    .sitemap {
+        display: none;
+    }
+    .bio {
+        margin: 0 auto;
+        width: 96%;
+    }
+    h2 {
+        margin-top: 20px;
+        margin-left: 2%;
+        margin-bottom: -20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width:900px) {
+    .sitemap {
+        display: none;
+    }
+    .bio {
+        margin: 0 auto;
+        width: 96%;
+    }
+    h2 {
+        margin-top: 20px;
+        margin-left: 2%;
+        margin-bottom: -20px;
+    }
+}

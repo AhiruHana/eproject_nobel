@@ -1,0 +1,116 @@
+.khoi-tieu-de {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.khoi-hinh-anh {
+  width: 300px;
+  height: 400px;
+}
+
+.name-sci {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.name-sci a {
+  color: black;
+}
+
+.name-sci a:hover {
+  color: cornflowerblue;
+}
+
+.anh-sci{
+  text-align: center;
+}
+.col-sm-12{
+  margin: 0;
+}
+.link-prixes {
+  width: 100%;
+  height: 100%;
+}
+
+.link-prize {
+  background-color: aquamarine;
+  border: 5px solid #dddddd;
+  width: 100%;
+  height: 100%;
+}
+
+.anh-slide {
+  width: 100%;
+  height: 80%;
+}
+
+@media (max-width: 400px) {
+  .anh-sci img {
+    width: 100%;
+    height: auto;
+  }
+
+  .khoi-tieu-de {
+    margin-left: 10px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+  }
+
+  .container {
+    display: contents;
+  }
+
+  .col-sm-12 {
+    margin: 0 auto;
+  }
+
+  .ip-600 {
+    margin: 0 auto;
+  }
+
+  .khoi-tieu-de-2 {
+    margin-left: 12px;
+    margin-bottom: -10px;
+  }
+
+  .khoi-image img {
+    width: 100%;
+    height: 235px;
+  }
+}
+
+@media (min-width: 601px) and (max-width:900px) {
+  .container {
+    display: contents;
+  }
+
+  .col-sm-12 {
+    margin: 0 auto;
+  }
+
+  .anh-sci img {
+    width: 100%;
+    height: 430;
+  }
+
+  .ip-600 {
+    margin: 0 auto;
+  }
+
+  .khoi-tieu-de {
+    margin-bottom: -38px;
+    margin-top: 20px;
+    margin-left: 11px;
+  }
+
+  .khoi-tieu-de-2 {
+    margin-top: 20px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+  }
+
+  .img_ip {
+    margin: 0 auto;
+  }
+}
